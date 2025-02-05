@@ -1,0 +1,56 @@
+{
+  "dd1": {
+    "option1" : {
+      "label1": "Help",
+      "desc1": "Get help with using the bot.",
+      "emoji1": "<:Fthis:1336560930720321591>"
+    },
+    "option2" : {
+      "label2": "Pull Request Guide",
+      "desc2": "Learn how to submit a Pull Request.",
+      "emoji2": "<:Github:1336557102130270267>"
+    },
+    "option3" : {
+      "label3": "How to Contribute",
+      "desc3": "Guidelines for contributing to the project.",
+      "emoji3": "<:Aliendance:1336560251926872095>"
+    },
+    "placeholder": "Documentation"
+  },
+  "dd2": {
+    "option1" : {
+      "label1": "AI Integration",
+      "desc1": "Interact with AI-powered features.",
+      "emoji1": "<:Goodbot:1336563956525039626>"
+    },
+    "option2" : {
+      "label2": "Moderation Tools",
+      "desc2": "Manage your server with moderation tools.",
+      "emoji2": "<:Tools:1336564607774621748>"
+    },
+    "option3" : {
+      "label3": "Fun Commands",
+      "desc3": "Enjoy fun and interactive commands.",
+      "emoji3": "<:Cooldoge:1336564800628592752>"
+    },
+    "option4" : {
+      "label4": "Server Analytics",
+      "desc4": "View server statistics and insights.",
+      "emoji4": "<:Googleanalytic:1336565139637403709>"
+    },
+    "placeholder": "Features"
+  },
+  "dd3": {
+    "option1" : {
+      "label1": "",
+      "desc1": "",
+      "emoji1": ""
+    },
+    "option2" : {
+      "label2": "",
+      "desc2": "",
+      "emoji2": ""
+    },
+    "placeholder": ""
+  }
+}
