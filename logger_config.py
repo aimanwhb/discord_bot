@@ -11,7 +11,7 @@ class LoggerConfig:
             level=log_level,
             format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
             handlers=[
-                logging.FileHandler(filename="discord.log", encoding="utf-8", mode="a"),
+                logging.FileHandler(filename="log/discord.log", encoding="utf-8", mode="a"),
                 # logging.StreamHandler()  # log to console
             ]
         )
