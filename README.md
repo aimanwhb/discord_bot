@@ -83,7 +83,7 @@ Understand the guidelines for contributing to the project.
    ```bash
    LOG_LEVEL="<DEBUG/INFO/WARNING/ERROR/CRITICAL>"
    DISCORD_TOKEN="<Discord bot token>"
-   DISCORD_GUILD="Guild name"
+   DISCORD_GUILD="<Guild name>"
    DROPDOWNTIMEOUT=<Dropdown timeout in second>
    ```
 5. Run the bot:
