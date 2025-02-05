@@ -90,4 +90,3 @@ Understand the guidelines for contributing to the project.
    ```bash
    python main.py
    ```
-   
