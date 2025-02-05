@@ -69,7 +69,7 @@ Understand the guidelines for contributing to the project.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aimanwhb/discord_bot.git
+   git clone https://github.com/len2kode/discord_bot.git
    ```
 2. Navigate to the project directory:
    ```bash
