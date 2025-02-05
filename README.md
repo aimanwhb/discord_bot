@@ -64,10 +64,29 @@ Understand the guidelines for contributing to the project.
 ### Prerequisites
 - Python 3.8 or higher
 - A Discord bot token (get it from the [Discord Developer Portal](https://discord.com/developers/applications))
-- `discord.py` library (`pip install discord.py`)
-- `python-dotenv` library (`pip install python-dotenv`)
+- Able to code in Python 😎
 
 ### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/aimanwhb/discord_bot.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ./discord_bot
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Create a .env file and add below:
+   ```bash
+   LOG_LEVEL="<DEBUG/INFO/WARNING/ERROR/CRITICAL>"
+   DISCORD_TOKEN="<Discord bot token>"
+   DISCORD_GUILD="Guild name"
+   DROPDOWNTIMEOUT=<Dropdown timeout in second>
+   ```
+5. Run the bot:
+   ```bash
+   python main.py
+   ```
