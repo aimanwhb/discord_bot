@@ -1,5 +1,5 @@
 from discord.ext import commands
-from discord_bot.components.dropd import DropdownView
+from components.dropd import DropdownView
 
 class MenuCommand(commands.Cog):
     """Cog for the menu command"""

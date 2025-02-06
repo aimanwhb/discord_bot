@@ -1,13 +1,10 @@
-import sys
 import os
 import discord
 import logging
 from dotenv import load_dotenv
-from discord_bot.commands.bot import Bot
 from logger_config import LoggerConfig
 from commands.menu_command import MenuCommand
-
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from commands.bot import Bot
 
 load_dotenv()
 

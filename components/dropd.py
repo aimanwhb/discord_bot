@@ -2,7 +2,7 @@ import asyncio
 import discord
 import os
 import json
-from discord_bot.components.dropd_logic import Userselection
+from .dropd_logic import Userselection
 
 user_selection = Userselection()
 
