@@ -1,56 +1,50 @@
 {
   "dd1": {
-    "option1" : {
+    "option1": {
       "label1": "Help",
       "desc1": "Get help with using the bot.",
-      "emoji1": "<:Fthis:1336560930720321591>"
+      "emoji1": "<:Fthis:1336560930720321591>",
+      "content1": "# Help: Using the Discord Bot\nWelcome to the **Help** section! Here, you’ll find everything you need to know about using the bot and its features. Whether you’re a new user or need a quick refresher, this guide has you covered.\n## Getting Started\nTo start using the bot, simply type `!menu` in any channel where the bot is active. This will open a dropdown menu with the following options:\n\n1. **Documentation**:\n   - **Help**: Get help with using the bot (you’re here!).\n   - **PR Guide**: Learn how to submit a Pull Request.\n   - **How to Contribute**: Guidelines for contributing to the project.\n   \n2. **Features**:\n   - **AI Integration**: Interact with AI-powered features.\n   - **Moderation Tools**: Manage your server with moderation tools.\n   - **Fun Commands**: Enjoy fun and interactive commands.\n   - **Server Analytics**: View server statistics and insights.\n## Available Commands\nHere’s a list of commands you can use with the bot:\n\n### **General Commands**\n- `!menu`: Opens the dropdown menu to explore bot features.\n- `!help`: Displays this help message.\n### **AI Integration** \uD83E\uDD16\n- `!ask <question>`: Ask the bot a question and get an AI-powered response.\n### **Moderation Tools** \uD83D\uDD12\n- `!kick <user>`: Remove a user from the server.\n- `!mute <user>`: Restrict a user ability to send messages.\n### **Fun Commands** \uD83C\uDF89\n- `!joke`: Get a random joke.\n- `!trivia`: Start a quick trivia game.\n### **Server Analytics** \uD83D\uDCCA\n- `!stats`: View server statistics, including message counts and active members.\n\nIf you need further assistance, join our Support Server or open an issue on GitHub https://github.com/len2kode/discord_bot/issues\n\nThank you for using the **Documentation and Features Discord Bot**! \uD83D\uDE80"
     },
-    "option2" : {
+    "option2": {
       "label2": "Pull Request Guide",
       "desc2": "Learn how to submit a Pull Request.",
-      "emoji2": "<:Github:1336557102130270267>"
+      "emoji2": "<:Github:1336557102130270267>",
+      "content2": "### Installation\n1. Clone the repository:\n   ```bash\n   git clone https://github.com/len2kode/discord_bot.git\n   ```\n2. Navigate to the project directory:\n   ```bash\n   cd ./discord_bot\n   ```\n3. Install dependencies:\n   ```bash\n   pip install -r requirements.txt\n   ```\n4. Create a .env file and add below:\n   ```bash\n   LOG_LEVEL=\"<DEBUG/INFO/WARNING/ERROR/CRITICAL>\"\n   DISCORD_TOKEN=\"<Discord bot token>\"\n   DISCORD_GUILD=\"<Guild name>\"\n   DROPDOWNTIMEOUT=<Dropdown timeout in second>\n   ```\n5. Run the bot:\n   ```bash\n   python main.py\n   ```"
     },
-    "option3" : {
+    "option3": {
       "label3": "How to Contribute",
       "desc3": "Guidelines for contributing to the project.",
-      "emoji3": "<:Aliendance:1336560251926872095>"
+      "emoji3": "<:Aliendance:1336560251926872095>",
+      "content3": "## Contributing to the Project\n\nThank you for your interest in contributing to this project! Follow these guidelines to ensure a smooth collaboration.\n\n### **Getting Started**\n\n1. Fork the Repository: Click on the `Fork` button at the top right of the repository page.\n\n2. Clone Your Fork:\n    ```bash\n    git clone https://github.com/your-username/discord_bot.git\n    ```\n   \n3. Navigate to the Project Directory:\n    ```bash\n    cd repository-name\n    ```\n4. Set Up the Upstream Repository:\n    ```bash\n    git remote add upstream https://github.com/len2kode/discord_bot.git\n    ```\n   \n5. Create a Branch for Your Changes:\n    ```bash\n    git checkout -b feature-branch-name\n    ```\n   \n### **Making Changes**\n\n6. Ensure Your Code is Up to Date:\n    ```bash\n    git pull upstream main\n    ```\n   \n7. Make Your Changes and Commit:\n    ```bash\n    git add .\n    git commit -m \"Describe your changes here\"\n    ```\n8. Push to Your Fork:\n    ```bash\n    git push origin feature-branch-name\n    ```\n\n## Pull Request Guidelines\n\n### **Submitting a Pull Request (PR)**\n\n1. Go to the Original Repository and click New Pull Request.\n\n2. Select Your Branch and compare it with main.\n\n3. Follow PR Template (if available) and describe your changes.\n\n4. **Ensure the PR title is clear and descriptive.\n\n5. Submit the PR and request a review.\n\n### **Code Review Process**\n\n- A reviewer will check your PR and provide feedback.\n\n- Ensure you address all requested changes.\n\n- Follow project coding standards and best practices.\n\n- Once approved, your PR will be merged.\n\n### **Best Practices**\n\n- Write clear, descriptive commit messages.\n\n- Follow coding standards and style guides.\n\n- Add relevant documentation if needed.\n\n- Test your code before submitting a PR.\n\n### **Need Help?**\n\n- If you have any questions, feel free to open an issue or reach out to the maintainers.\n- Happy coding! \uD83D\uDE80"
     },
     "placeholder": "Documentation"
   },
   "dd2": {
-    "option1" : {
+    "option1": {
       "label1": "AI Integration",
       "desc1": "Interact with AI-powered features.",
-      "emoji1": "<:Goodbot:1336563956525039626>"
+      "emoji1": "<:Goodbot:1336563956525039626>",
+      "content1": "This is 4"
     },
-    "option2" : {
+    "option2": {
       "label2": "Moderation Tools",
       "desc2": "Manage your server with moderation tools.",
-      "emoji2": "<:Tools:1336564607774621748>"
+      "emoji2": "<:Tools:1336564607774621748>",
+      "content2": "This is 5"
     },
-    "option3" : {
+    "option3": {
       "label3": "Fun Commands",
       "desc3": "Enjoy fun and interactive commands.",
-      "emoji3": "<:Cooldoge:1336564800628592752>"
+      "emoji3": "<:Cooldoge:1336564800628592752>",
+      "content3": "This is 6"
     },
-    "option4" : {
+    "option4": {
       "label4": "Server Analytics",
       "desc4": "View server statistics and insights.",
-      "emoji4": "<:Googleanalytic:1336565139637403709>"
+      "emoji4": "<:Googleanalytic:1336565139637403709>",
+      "content4": "This is 7"
     },
     "placeholder": "Features"
-  },
-  "dd3": {
-    "option1" : {
-      "label1": "",
-      "desc1": "",
-      "emoji1": ""
-    },
-    "option2" : {
-      "label2": "",
-      "desc2": "",
-      "emoji2": ""
-    },
-    "placeholder": ""
   }
 }

@@ -54,8 +54,9 @@ class Dropdown1(discord.ui.Select):
         """
 
         user_selection.update_selection(interaction.user.id, self.name_placeholder, self.values[0])
-        await interaction.response.send_message(f"You have selected {self.values[0]}")
-        await user_selection.check(interaction)
+        await interaction.response.defer()
+        # await interaction.response.send_message(f"You have selected {self.values[0]}")
+        await user_selection.check(interaction, self.name_placeholder, self.values[0])
 
 
 class Dropdown2(discord.ui.Select):
@@ -91,8 +92,9 @@ class Dropdown2(discord.ui.Select):
     async def callback(self, interaction: discord.Interaction):
 
         user_selection.update_selection(interaction.user.id, self.name_placeholder, self.values[0])
-        await interaction.response.send_message(f"You have selected {self.values[0]}")
-        await user_selection.check(interaction)
+        await interaction.response.defer()
+        # await interaction.response.send_message(f"You have selected {self.values[0]}")
+        await user_selection.check(interaction, self.name_placeholder, self.values[0])
 
 
 class DropdownView(discord.ui.View):
