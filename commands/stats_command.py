@@ -3,11 +3,10 @@ from datetime import datetime
 import discord
 
 class StatsCommand(commands.Cog):
-    """Cog for the stats command"""
     def __init__(self, bot):
         self.bot = bot
-        self.message_count = 0
         self.start_time = datetime.now()
+        self.message_count = 0
 
     @commands.Cog.listener()
     async def on_message(self, message):
