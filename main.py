@@ -30,7 +30,7 @@ async def main():
     await bot.add_cog(UserStatsCommand(bot))
     await bot.add_cog(LeaderboardCommand(bot))
     await bot.add_cog(UptimeCommand(bot))
-    # await bot.add_cog(AskCommand(bot))
+    await bot.add_cog(AskCommand(bot))
     await bot.start(TOKEN)
 
 if __name__ == "__main__":

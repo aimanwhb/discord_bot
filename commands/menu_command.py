@@ -14,8 +14,9 @@ class MenuCommand(commands.Cog):
         view = DropdownView()
 
         # Sending a message and insert dropdown
-        message = await ctx.send('Welcome to our discord!', view=view)
+        await ctx.send('Welcome to our discord!', view=view)
 
-        # Disable dropdown once timeout
-        await view.disable_after_timeout(message)
-        await ctx.send('Timeout! Please try again.')
+        ## Uncomment to disable dropdown once timeout
+        # message = await ctx.send('Welcome to our discord!', view=view)
+        # await view.disable_after_timeout(message)
+        # await ctx.send('Timeout! Please try again.')

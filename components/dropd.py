@@ -54,8 +54,19 @@ class Dropdown1(discord.ui.Select):
         """
 
         user_selection.update_selection(interaction.user.id, self.name_placeholder, self.values[0])
+
+        # Disable all dropdowns in the view
+        for child in self.view.children:  # type: ignore
+            if isinstance(child, discord.ui.Select):
+                child.disabled = True
+
+        # Update the message to show disabled dropdowns
+        await interaction.message.edit(view=self.view)
+
+        # stop sending option selected message
         await interaction.response.defer()
         # await interaction.response.send_message(f"You have selected {self.values[0]}")
+
         await user_selection.check(interaction, self.name_placeholder, self.values[0])
 
 
@@ -92,6 +103,12 @@ class Dropdown2(discord.ui.Select):
     async def callback(self, interaction: discord.Interaction):
 
         user_selection.update_selection(interaction.user.id, self.name_placeholder, self.values[0])
+
+        for child in self.view.children:  # type: ignore
+            if isinstance(child, discord.ui.Select):
+                child.disabled = True
+
+        await interaction.message.edit(view=self.view)
         await interaction.response.defer()
         # await interaction.response.send_message(f"You have selected {self.values[0]}")
         await user_selection.check(interaction, self.name_placeholder, self.values[0])
@@ -105,11 +122,12 @@ class DropdownView(discord.ui.View):
         self.add_item(Dropdown1())
         self.add_item(Dropdown2())
 
-    async def disable_after_timeout(self, message: discord.Message):
-        """Disables the dropdown after {DROPDOWNTIMEOUT}.env seconds"""
-
-        await asyncio.sleep(int(os.environ.get("DROPDOWNTIMEOUT")))
-        for child in self.children:
-            if isinstance(child, discord.ui.Select):
-                child.disabled = True  # Disable dropdown
-        await message.edit(view=self)  # Update message
+## Uncomment to set timeout for dropdown view
+#     async def disable_after_timeout(self, message: discord.Message):
+#         """Disables the dropdown after {DROPDOWNTIMEOUT}.env seconds"""
+#
+#         await asyncio.sleep(int(os.environ.get("DROPDOWNTIMEOUT")))
+#         for child in self.children:
+#             if isinstance(child, discord.ui.Select):
+#                 child.disabled = True  # Disable dropdown
+#         await message.edit(view=self)  # Update message
