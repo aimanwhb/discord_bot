@@ -52,9 +52,9 @@ The bot also provides easy access to important documentation. Use the `!menu` co
 Get help with using the bot and its commands.  
 **Response**: "Welcome to the bot! Use `!menu` to see available options. For more help, contact the admin."
 
-### **PR Guide** 📘
-Learn how to submit a Pull Request to contribute to the project.  
-**Response**: "To submit a PR, fork the repository, make your changes, and create a pull request. Ensure your code follows our guidelines."
+### **Bot Installation** 📘
+How to run the discord bot  
+**Response**: "To clone a repo, install dependencies, update .env file and run the bot locally."
 
 ### **How to Contribute** 🤝
 Understand the guidelines for contributing to the project.  
