@@ -23,7 +23,8 @@ class StatsCommand(commands.Cog):
 
         # Get online members
         online_members = [member for member in guild.members
-                         if not member.bot and member.status != discord.Status.offline]
+                          if member.status != discord.Status.offline]
+                        # if not member.bot and member.status != discord.Status.offline]
 
         # Create embed
         embed = discord.Embed(
