@@ -8,7 +8,7 @@
     },
     "option2": {
       "label2": "Bot installation",
-      "desc2": "Learn how to run discord bot locally",
+      "desc2": "How to run discord bot",
       "emoji2": "<:Github:1336557102130270267>",
       "content2": "### Installation\n1. Clone the repository:\n   ```bash\n   git clone https://github.com/len2kode/discord_bot.git\n   ```\n2. Navigate to the project directory:\n   ```bash\n   cd ./discord_bot\n   ```\n3. Install dependencies:\n   ```bash\n   pip install -r requirements.txt\n   ```\n4. Create a .env file and add below:\n   ```bash\n   LOG_LEVEL=\"<DEBUG/INFO/WARNING/ERROR/CRITICAL>\"\n   DISCORD_TOKEN=\"<Discord bot token>\"\n   DISCORD_GUILD=\"<Guild name>\"\n   AI_MODEL=\"meta-llama/llama-3.2-3b-instruct:free\"\n   AI_ENDPOINT=\"<API URL>\"\n   AI_TOKEN=\"<Your token>\"\n   ```\n5. Run the bot:\n   ```bash\n   python main.py\n   ```"
     },
