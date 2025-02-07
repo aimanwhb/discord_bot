@@ -36,8 +36,9 @@ Enjoy fun and interactive commands to keep your server lively.
 
 ### **Server Analytics** 📊
 Track server activity and gain insights into member engagement.  
-**Example Command**: `!stats`  
-**Response**: Displays message counts, active members, and more.
+**Example Command**: `!stats` `!uptime` `!stats` `!userstats @<username>`.
+
+**Response**: Displays message counts, active members, bot uptime and more.
 
 ---
 
@@ -84,7 +85,9 @@ Understand the guidelines for contributing to the project.
    LOG_LEVEL="<DEBUG/INFO/WARNING/ERROR/CRITICAL>"
    DISCORD_TOKEN="<Discord bot token>"
    DISCORD_GUILD="<Guild name>"
-   DROPDOWNTIMEOUT=<Dropdown timeout in second>
+   AI_MODEL="meta-llama/llama-3.2-3b-instruct:free"
+   AI_ENDPOINT="<API URL>"
+   AI_TOKEN="<Your token>"
    ```
 5. Run the bot:
    ```bash
