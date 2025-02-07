@@ -1,3 +1,5 @@
+# WORK IN PROGRESS....
+
 # Discord Bot: Documentation and Features
 
 Welcome to the **Documentation and Features Discord Bot**! This bot is designed to help users navigate your server, access documentation, and explore exciting features like AI integration, moderation tools, and fun commands. It’s perfect for communities looking to streamline communication and engagement.
