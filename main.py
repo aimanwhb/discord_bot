@@ -10,6 +10,7 @@ from commands.channelstats_command import ChannelStatsCommand
 from commands.userstats_command import UserStatsCommand
 from commands.leaderboard_command import LeaderboardCommand
 from commands.uptime_command import UptimeCommand
+from commands.ask_command import AskCommand
 
 load_dotenv()
 
@@ -29,6 +30,7 @@ async def main():
     await bot.add_cog(UserStatsCommand(bot))
     await bot.add_cog(LeaderboardCommand(bot))
     await bot.add_cog(UptimeCommand(bot))
+    # await bot.add_cog(AskCommand(bot))
     await bot.start(TOKEN)
 
 if __name__ == "__main__":
