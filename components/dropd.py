@@ -1,6 +1,4 @@
-import asyncio
 import discord
-import os
 import json
 from .dropd_logic import Userselection
 
