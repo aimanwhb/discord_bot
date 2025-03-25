@@ -62,7 +62,6 @@ How to run the discord bot
 ### Prerequisites
 - Python 3.8 or higher
 - A Discord bot token (get it from the [Discord Developer Portal](https://discord.com/developers/applications))
-- Able to code in Python 😎
 
 ### Installation
 1. Clone the repository:
