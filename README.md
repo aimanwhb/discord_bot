@@ -10,8 +10,7 @@ Welcome to the **Len2code Discord Bot**! This bot is designed to help users to e
 1. [Features](#features)
 2. [Documentation](#documentation)
 3. [Getting Started](#getting-started)
-4. [Contributing](#contributing)
-5. [Support](#support)
+4. [Support](#support)
 
 ---
 
