@@ -2,7 +2,7 @@
 
 # Discord Bot: AI integration and other cool features
 
-Welcome to the **Documentation and Features Discord Bot**! This bot is designed to help users navigate your server, access documentation, and explore exciting features like AI integration, moderation tools, and fun commands. It’s perfect for communities looking to streamline communication and engagement.
+Welcome to the **Len2code Discord Bot**! This bot is designed to help users to explore exciting features like AI integration, moderation tools, and fun commands. It’s perfect for communities looking to streamline communication and engagement.
 
 ---
 
@@ -34,7 +34,6 @@ Keep your server safe and organized with powerful moderation tools.
 Enjoy fun and interactive commands to keep your server lively.  
 **Example Commands**:
 - `!joke`: Get a random joke.
-- `!trivia`: Start a quick trivia game.
 
 ### **Server Analytics** 📊
 Track server activity and gain insights into member engagement.  
@@ -55,10 +54,6 @@ Get help with using the bot and its commands.
 ### **Bot Installation** 📘
 How to run the discord bot  
 **Response**: "To clone a repo, install dependencies, update .env file and run the bot locally."
-
-### **How to Contribute** 🤝
-Understand the guidelines for contributing to the project.  
-**Response**: "We welcome contributions! Please read our [Contribution Guidelines](link) before submitting any changes."
 
 ---
 
